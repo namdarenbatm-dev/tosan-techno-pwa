@@ -1,5 +1,5 @@
 const CACHE_NAME = "tosan-techno-final";
-const ASSETS = ["./", "./index.html", "./manifest.json", "./icon-192.svg", "./icon-512.svg", "./apple-touch-icon.svg"];
+const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json", "./icon-192.svg", "./icon-512.svg", "./apple-touch-icon.svg"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(ASSETS)));
   self.skipWaiting();
