@@ -1,5 +1,9 @@
-# سامانه نمایندگان توسن تکنو
+# سامانه نمایندگان توسن تکنو (PWA)
 
-برای مشاهده اپ، فایل index.html را از نسخه کامل استفاده کنید.
+## لینک اپ
+بعد از فعال‌سازی GitHub Pages:
+https://namdarenbatm-dev.github.io/tosan-techno-pwa/
 
-Repo: https://github.com/namdarenbatm-dev/tosan-techno-pwa
+## نصب روی موبایل
+1. لینک بالا را در Safari (آیفون) یا Chrome (اندروید) باز کنید
+2. Add to Home Screen / نصب برنامه
