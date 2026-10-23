@@ -1,0 +1,27 @@
+<!doctype html><html><head>
+<meta name="theme-color" content="#0f4c9a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="توسن تکنو">
+<link rel="manifest" href="./manifest.json">
+<link rel="apple-touch-icon" href="./apple-touch-icon.svg">
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><title>سامانه نمایندگان توسن تکنو</title>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then(reg => console.log('SW registered', reg.scope))
+      .catch(err => console.log('SW registration failed', err));
+  });
+}
+</script>
+</head><body>
+<div style="font-family:Tahoma,sans-serif;direction:rtl;padding:40px;text-align:center;max-width:480px;margin:40px auto">
+  <div style="width:96px;height:96px;margin:0 auto 20px;background:#0f4c9a;border-radius:22px;display:flex;align-items:center;justify-content:center">
+    <svg width="64" height="64" viewBox="0 0 192 192"><rect width="192" height="192" fill="#0f4c9a"/><rect x="36" y="48" width="120" height="90" rx="12" fill="#fff"/><rect x="48" y="60" width="96" height="50" rx="6" fill="#0f4c9a"/><circle cx="130" cy="72" r="5" fill="#22c55e"/></svg>
+  </div>
+  <h1 style="color:#0f4c9a;font-size:22px;margin:0 0 8px">سامانه نمایندگان توسن تکنو</h1>
+  <p style="color:#5b616a;font-size:14px;line-height:1.7">نسخه کامل اپ در حال بارگذاری از مخزن است.<br>اگر این صفحه را می‌بینید، فایل اصلی index را از زیپ نهایی جایگزین کنید.</p>
+  <p style="margin-top:24px"><a href="https://github.com/namdarenbatm-dev/tosan-techno-pwa" style="color:#0f4c9a">مشاهده مخزن گیت‌هاب</a></p>
+</div>
+</body></html>
